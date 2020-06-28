@@ -1,6 +1,6 @@
 # Battery
 
-Displays battery usage information of the Android phones such as percentage, current, temperatureand voltage. (Sdk version 23 and above) 
+Displays battery usage information of the Android phones such as percentage, current, temperature and voltage. (Sdk version 23 and above) 
 
 - Ongoing notification for real time battery statistics.
 - Charge alarm to prolong battery lifespan.
