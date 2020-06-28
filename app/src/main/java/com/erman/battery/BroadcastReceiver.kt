@@ -21,12 +21,14 @@ class BroadcastReceiver() : BroadcastReceiver() {
         val batteryPercentage = intent?.getIntExtra(BatteryManager.EXTRA_LEVEL, 0)
         val voltage = intent?.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0)?.toFloat()
         val batteryTemp = intent?.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0)?.toFloat()?.div(10)
+        val chargingStatus = intent?.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1)
 
         val bundle = Bundle()
 
         batteryPercentage?.let { bundle.putInt(KEY_BUNDLE_BATTERY_PERCENTAGE, it) }
         voltage?.let { bundle.putFloat(KEY_BUNDLE_BATTERY_VOLTAGE, it) }
         batteryTemp?.let { bundle.putFloat(KEY_BUNDLE_BATTERY_TEMP, it) }
+        chargingStatus?.let { bundle.putInt(KEY_BUNDLE_CHARGING_STATUS, it) }
 
         listener.broadcastReceiverListener(bundle)
     }

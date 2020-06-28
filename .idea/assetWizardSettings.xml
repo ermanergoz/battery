@@ -297,8 +297,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_decharge" />
-                            <entry key="sourceFile" value="$PROJECT_DIR$/../../../Battery Icons/status.svg" />
+                            <entry key="outputName" value="ic_wireless_charger" />
+                            <entry key="sourceFile" value="$PROJECT_DIR$/../../../Battery Icons/ic_wireless_charger.svg" />
                           </map>
                         </option>
                       </PersistentState>
