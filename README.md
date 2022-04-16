@@ -32,7 +32,7 @@ A simple Android application to display battery information such as the percenta
 	
 ## Status
 
-Work in progress...
+Development is paused indefinitely. This project might be deprecated in the future.
 
 ## Meta
 
