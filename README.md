@@ -3,7 +3,7 @@
 A simple Android application to display battery information such as the percentage, current, temperature, voltage and to set charge alarm to prolong battery lifespan.
 
 <p float="center">
-	<img src="https://github.com/ermanergoz/Battery/blob/master/resources/Screenshot_20210316-010430.png" height="500">
+	<img src="https://github.com/ermanergoz/Battery/blob/master/assets/Screenshot_20210316-010430.png" height="500">
 </p>
 
 ## Features
