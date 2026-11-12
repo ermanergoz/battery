@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Battery</string>
+
+    <string name="percentage">Percentage</string>
+    <string name="current">Current</string>
+    <string name="battery_temp">Battery temp</string>
+    <string name="voltage">Voltage</string>
+    <string name="charge_alarm">Charge alarm</string>
+    <string name="charge_until">charge until</string>
+    <string name="charge_alarm_limit_error">Enter a percentage between 1 and 100</string>
+    <string name="info">Info</string>
+    <string name="usage">Usage</string>
+    <string name="settings">Settings</string>
+
+    <string name="discharging">Discharging</string>
+    <string name="ac_charger">AC charger</string>
+    <string name="usb_charger">USB charger</string>
+    <string name="wireless_charger">Wireless charger</string>
+
+    <string name="charging_ac">Charging via AC</string>
+    <string name="charging_usb">Charging via USB</string>
+    <string name="charging_wireless">Charging wirelessly</string>
+
+    <string name="battery_info_title">Battery info</string>
+    <string name="battery_info_message">Health: %1$s\nStatus: %2$s\nTechnology: %3$s</string>
+    <string name="health_good">Good</string>
+    <string name="health_overheat">Overheat</string>
+    <string name="health_dead">Dead</string>
+    <string name="health_over_voltage">Over voltage</string>
+    <string name="health_failure">Failure</string>
+    <string name="health_cold">Cold</string>
+    <string name="state_charging">Charging</string>
+    <string name="state_not_charging">Not charging</string>
+    <string name="state_full">Full</string>
+    <string name="unknown">Unknown</string>
+    <string name="battery_usage_unavailable">Battery usage is not available on this device</string>
+
+    <string name="channel_status_name">Battery status</string>
+    <string name="channel_status_description">Ongoing notification with real time battery statistics</string>
+    <string name="notification_status_title">%1$d%% · %2$s</string>
+    <string name="notification_status_text">%1$s · %2$s · %3$s</string>
+
+    <string name="channel_alarm_name">Charge alarm</string>
+    <string name="channel_alarm_description">Alerts when the battery reaches the charge limit</string>
+    <string name="notification_alarm_title">Charge limit reached</string>
+    <string name="notification_alarm_text">Battery is at %d%%. Unplug the charger to prolong battery lifespan.</string>
+    <string name="notification_alarm_subtext">Charge alarm at %d%%</string>
+
+    <string name="pref_ongoing_notification_title">Ongoing notification</string>
+    <string name="pref_ongoing_notification_summary">Show real time battery statistics in the notification area. It is always shown while the charge alarm is on.</string>
+
+    <string name="pref_theme_title">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="current_value">%d uA</string>
+    <string name="temperature_value">%.1f °C</string>
+    <string name="voltage_value">%.1f mV</string>
+    <string name="not_available">N/A</string>
+</resources>
